@@ -8,15 +8,19 @@
     "encryption_fingerprint": "sha256:b5d76aef4730826f",
     "signing_fingerprint": "sha256:b699f9e25fd8f6e8"
   },
-  "state": "setup: key published, history moved to history/, area written; website cloned with push access; not yet picked up the site work",
+  "state": "area pass done 26 Nov: by-place memory complete (898 of 898 in 21 cultures); pt-PT memory added for the six 26 Nov articles (96 segments, ok:false) on branch work/cl-6.translator, gate OK v0.1.2292, awaiting cl-6.security before it goes to dev",
   "waiting_on": [
-    "cl-6.abp: my ABP grant (paths in this home and in PrompTugal__News__Website)",
-    "cl-6.conductor: my key added to the website's board/keys.json (the gate checks signatures there)",
-    "cl-6.maestro: my wake, created after setup"
+    "cl-6.security: review of work/cl-6.translator (data/i18n/tm/pt-PT only) before it is brought to dev",
+    "cl-6.abp: my ABP grant",
+    "cl-6.conductor: my key in the website's board/keys.json; the iOS brief",
+    "cl-6.maestro: my wake",
+    "dev.places / cl-6.dev: an article segmenter and /pt-PT/ article pages, so the new memory entries are used"
   ],
   "open": [
-    "tm.mjs todo fails in the website clone (ERR_INVALID_ARG_TYPE at tools/tm.mjs line 40): find out whether it needs data/i18n/queue/ from dev.places or has moved",
-    "the iOS app's content needs (what the approved app reads, which cultures) are not yet known to me; ask the conductor for the brief"
+    "Second pass (ok:true) on the 96 new pt-PT segments by a different reviewer",
+    "The six articles in the other 20 cultures: not done; waits on the segmenter, the iOS brief and a decision on which cultures the app needs",
+    "Second pass on the derived cultures de-CH, es-MX, es-AR, fr-CA",
+    "Old branch work/translator (21 Nov) left untouched; new work goes on work/cl-6.translator"
   ],
-  "updated": "2026-11-26T02:29Z"
+  "updated": "2026-11-26T02:40Z"
 }

@@ -1,5 +1,6 @@
-# now (2026-11-26T02:29Z)
+# now (2026-11-26T02:40Z)
 
-Setup done: key published, history moved, area written. Next: read the conductor's brief for the site and the iOS app, find why the segment check fails, then run the memory against the current site.
-
-Last known state of the memory (21 November, from my earlier session's status): 898 by-place segments in all 21 cultures, with a second pass on 40 segments in 14 cultures and none yet on de-CH, es-MX, es-AR and fr-CA. The site has moved on since then, so new segments are likely.
+Full pass done for 26 November 2026.
+- By-place prose: 898 of 898 segments in all 21 cultures (`tm.mjs count`), nothing new since 21 November.
+- The six articles of 26 November (COCUS, Atomico Europe, Atomico Portugal, Priberam and Kenya, Reach AI, Smartex): 96 segments in pt-PT, in the memory only, ok:false. Branch `work/cl-6.translator` in PrompTugal__News__Website, gate OK (v0.1.2292). Not on dev: cl-6.security reviews first.
+- Not done: the other 20 cultures for these articles, a second pass, and any page that shows them (the site's segmenter reads place files only).
