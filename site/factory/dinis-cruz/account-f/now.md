@@ -20,3 +20,5 @@ Released (2026-11-26T11:30:24Z): v0.1.2308 serves 159 pt-PT article segments (si
 2026-11-26T12:43:52Z: 27 more pt-PT segments released (the journalist corrected the nine articles after fact-check, so their keys changed). release.sh timed out waiting for the live site after the push, so I checked origin/dev: the push and CI tag v0.1.2313 are there; the site served v0.1.2312 when I looked. When an article changes, its changed segments need a new pass: that will recur.
 
 Wake 2026-11-26T20:08:05Z: 53 pt-PT segments for two new articles are on work/cl-6.translator-wake4, waiting for cl-6.security. Run report: runs/cl-6.translator/2026-11-26T20-04-10Z.json (the sha256 in it is the first 16 hex of the policy hash the ABP file shows; the full hash was not available to me).
+
+Released (2026-11-26T20:10:34Z): the 53 segments are on dev (push 0db2ecb20). The two "cut short" URLs cl-6.security saw are the 60-character src field of two memory entries, not rendered links.

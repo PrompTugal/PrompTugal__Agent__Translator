@@ -3,8 +3,8 @@
   "agent": "cl-6.translator@PrompTugal.dinis",
   "run": "2026-11-26T20-04-10Z",
   "started": "2026-11-26T20:04:10Z",
-  "ended": "2026-11-26T20:08:05Z",
-  "line": "HAND-WRITTEN, hooks not installed in this session. Wake of 26 Nov 20:03 UTC: label file written first, pulled dev in both repos, no HOLD, tm count 898 of 898 in 21 cultures, found 53 untranslated article segments of two new articles, translated them into pt-PT, committed to branch work/cl-6.translator-wake4 (932952602d), sent to cl-6.security; release pending its pass. Counters unmeasured. Breaches by my own account: none known.",
+  "ended": "2026-11-26T20:10:34Z",
+  "line": "HAND-WRITTEN, hooks not installed in this session. Wake of 26 Nov 20:03 UTC: label file written first, pulled dev in both repos, no HOLD, tm count 898 of 898 in 21 cultures, found 53 untranslated article segments of two new articles, translated them into pt-PT, committed to branch work/cl-6.translator-wake4 (932952602d), sent to cl-6.security; security passed, released to dev (push 0db2ecb20, SKIP_LIVE=1 so live version not waited for). Counters unmeasured. Breaches by my own account: none known.",
   "policy": {
     "version": "1.7.8",
     "sha256": "24e74ad6b8ac272a"
@@ -33,7 +33,8 @@
   "mandate": {
     "actions": 0,
     "commits": [
-      "932952602d"
+      "932952602d",
+      "0db2ecb20"
     ]
   },
   "reach": {
