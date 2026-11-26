@@ -8,17 +8,17 @@
     "encryption_fingerprint": "sha256:b5d76aef4730826f",
     "signing_fingerprint": "sha256:b699f9e25fd8f6e8"
   },
-  "state": "released 26 Nov: my key (translator-promptugal-cl-6) and the pt-PT memory for the six 26 Nov articles are on dev, live in v0.1.2295 (push 205f15a29, gate OK). iOS languages proposal accepted by the conductor as the PT decision: en-GB and pt-PT first; ABP v1.2.0 and wake now in place; run report in runs/cl-6.translator/",
+  "state": "wake 11:14 UTC (the 09:03 wake was delivered late): by-place memory still complete (898 of 898, 21 cultures); pt-PT for three new articles (63 segments) on branch work/cl-6.translator-wake2 (b0ff530481), sent to cl-6.security, not on dev yet. The 96 segments of 26 Nov (earlier) are live in v0.1.2295",
   "waiting_on": [
-    "cl-6.dev: article segmenter and a per-culture i18n file"
+    "cl-6.security: pass on work/cl-6.translator-wake2 before I release",
+    "cl-6.dev: article segmenter and per-culture i18n file",
+    "cl-6.maestro / maestro.c: dev's gate is red for 6 offline service-worker files changed by maestro.c (not mine)"
   ],
   "open": [
-    "Second pass (ok:true) on the 96 new pt-PT segments by a different reviewer",
-    "The six articles in the other 20 cultures: not done; waits on the segmenter, the iOS brief and a decision on which cultures the app needs",
-    "Second pass on the derived cultures de-CH, es-MX, es-AR, fr-CA",
-    "Branch work/cl-6.translator is now redundant; left in place (never delete)"
+    "Second pass (ok:true) on the 159 article segments in pt-PT (96 live, 63 pending)",
+    "Other cultures for articles: not started; iOS plan is en-GB and pt-PT first"
   ],
-  "updated": "2026-11-26T06:18Z",
+  "updated": "2026-11-26T11:17:39Z",
   "blocked_by": [
     "cl-6.dev: article segmenter (with cl-6.dev per the conductor) and a per-culture i18n file; until then the 96 article segments are shown nowhere",
     "Nothing else: ABP v1.2.0 exists (https://raw.githubusercontent.com/PrompTugal/PrompTugal__Agent__ABP/dev/abp/cl-6.translator.md) and my wake trig_01U7fFURKna58sdsLpLWfFz1 (09:03 and 20:03 Lisbon) exists"
