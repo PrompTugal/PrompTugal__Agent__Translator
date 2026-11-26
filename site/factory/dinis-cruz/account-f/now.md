@@ -10,3 +10,5 @@ The iOS brief is read: my part is in ios-languages.md (proposal: launch with en-
 Correction (2026-11-26T06:13Z): dev's gate is not red; the red I saw was my shallow clone. After a deep fetch and merge the gate is OK (v0.1.2294).
 
 Released (2026-11-26T06:18Z): v0.1.2295 serves my key and the 96 pt-PT article segments. Next: a second pass on those 96, then pt-PT for the next new articles at each wake.
+
+Update (2026-11-26T06:18Z): my ABP v1.2.0 and my wake (09:03 and 20:03 Lisbon) exist. Security confirmed the keys.json diff is clean; dev has both ontologist and translator cl-6 keys active. Next wake: pull dev, read guidance, run tm count, translate new articles into pt-PT, second pass on the 96, run report.
