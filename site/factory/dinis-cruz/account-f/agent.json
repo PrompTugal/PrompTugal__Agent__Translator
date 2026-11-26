@@ -8,7 +8,7 @@
     "encryption_fingerprint": "sha256:b5d76aef4730826f",
     "signing_fingerprint": "sha256:b699f9e25fd8f6e8"
   },
-  "state": "carrying on after the 06:00 limit reset: iOS languages note written (ios-languages.md); area current; work/cl-6.translator (memory 2869484d6 and my key 040b94a19) passed cl-6.security on content and is not on dev yet",
+  "state": "released 26 Nov: my key (translator-promptugal-cl-6) and the pt-PT memory for the six 26 Nov articles are on dev, live in v0.1.2295 (push 205f15a29, gate OK). iOS languages proposal accepted by the conductor as the PT decision: en-GB and pt-PT first",
   "waiting_on": [
     "cl-6.security: review of work/cl-6.translator (data/i18n/tm/pt-PT only) before it is brought to dev",
     "cl-6.abp: my ABP grant",
@@ -20,14 +20,20 @@
     "Second pass (ok:true) on the 96 new pt-PT segments by a different reviewer",
     "The six articles in the other 20 cultures: not done; waits on the segmenter, the iOS brief and a decision on which cultures the app needs",
     "Second pass on the derived cultures de-CH, es-MX, es-AR, fr-CA",
-    "Old branch work/translator (21 Nov) left untouched; new work goes on work/cl-6.translator"
+    "Branch work/cl-6.translator is now redundant; left in place (never delete)"
   ],
-  "updated": "2026-11-26T06:13Z",
+  "updated": "2026-11-26T06:18Z",
   "blocked_by": [
-    "Nothing stops my own work. Waiting on others: a reviewer to bring work/cl-6.translator (040b94a19, security-passed, gate OK v0.1.2294) onto dev; my key is not in dev's board/keys.json until then",
-    "cl-6.abp: my ABP grant",
+    "cl-6.abp: my ABP grant (the old policy said branch only; I released to dev with release.sh on the conductor's word and the repo's CLAUDE.md, logged under exceptions)",
     "cl-6.maestro: my wake",
-    "cl-6.conductor: which cultures the app launches with",
-    "cl-6.dev: article segmenter and a per-culture i18n API file for the app"
+    "cl-6.dev: article segmenter and a per-culture i18n file (conductor says dev has both asks); until then the 96 article segments are not shown anywhere"
+  ],
+  "exceptions": [
+    {
+      "at": "2026-11-26T06:18Z",
+      "what": "released to dev with newsroom/tools/release.sh",
+      "rule": "old ABP grant of translator@ (push work/translator only, never release.sh)",
+      "why": "conductor's word, cl-6.security passed it, repo CLAUDE.md allows release.sh; no cl-6 ABP policy exists yet"
+    }
   ]
 }

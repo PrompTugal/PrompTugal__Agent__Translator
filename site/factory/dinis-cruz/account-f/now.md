@@ -8,3 +8,5 @@ Full pass done for 26 November 2026.
 The iOS brief is read: my part is in ios-languages.md (proposal: launch with en-GB and pt-PT).
 
 Correction (2026-11-26T06:13Z): dev's gate is not red; the red I saw was my shallow clone. After a deep fetch and merge the gate is OK (v0.1.2294).
+
+Released (2026-11-26T06:18Z): v0.1.2295 serves my key and the 96 pt-PT article segments. Next: a second pass on those 96, then pt-PT for the next new articles at each wake.
