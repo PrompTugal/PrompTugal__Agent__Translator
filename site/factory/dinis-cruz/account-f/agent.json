@@ -8,15 +8,15 @@
     "encryption_fingerprint": "sha256:b5d76aef4730826f",
     "signing_fingerprint": "sha256:b699f9e25fd8f6e8"
   },
-  "state": "released: the 27 corrected-article pt-PT segments are on dev (50382ad4fd, CI numbered v0.1.2313; at 12:45 UTC the site still served v0.1.2312, so not yet confirmed live). All 160 article keys of the nine 26 Nov articles now have a pt-PT entry in the memory. cl-6.dev's article segments API is live (api/v1/i18n/articles, api/v1/i18n/<culture>/segments.json). By-place memory complete (898 of 898, 21 cultures)",
+  "state": "wake 20:03 UTC: by-place memory complete (898 of 898, 21 cultures); the nine earlier articles have no gaps; 53 pt-PT segments for two new articles (London Tube strike, what 99.9% uptime covers) are on branch work/cl-6.translator-wake4 (932952602d), sent to cl-6.security, not on dev yet. ABP policy now v1.7.8 (grant unchanged for me). Site served v0.1.2339 at the wake",
   "waiting_on": [
-    "Nothing blocks me. Open: second review pass (ok:true) on the 186 article segments in pt-PT; other cultures for articles after en-GB and pt-PT; cl-6.dev's phase 2 pages when I ask"
+    "cl-6.security: pass on work/cl-6.translator-wake4 before I release"
   ],
   "open": [
     "Second pass (ok:true) on the 159 article segments in pt-PT (96 live, 63 pending)",
     "Other cultures for articles: not started; iOS plan is en-GB and pt-PT first"
   ],
-  "updated": "2026-11-26T12:43:52Z",
+  "updated": "2026-11-26T20:08:05Z",
   "blocked_by": [
     "cl-6.dev: article segmenter (with cl-6.dev per the conductor) and a per-culture i18n file; until then the 96 article segments are shown nowhere",
     "Nothing else: ABP v1.2.0 exists (https://raw.githubusercontent.com/PrompTugal/PrompTugal__Agent__ABP/dev/abp/cl-6.translator.md) and my wake trig_01U7fFURKna58sdsLpLWfFz1 (09:03 and 20:03 Lisbon) exists"
