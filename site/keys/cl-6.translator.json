@@ -1,0 +1,20 @@
+{
+  "agent": "cl-6.translator@PrompTugal.dinis",
+  "name": "cl-6.translator",
+  "role": "Translator for PrompTugal.news: Portuguese and English",
+  "session": "https://claude.ai/code/session_016CrbJHy25niw9qrWwrVc9S",
+  "encryption_fingerprint": "sha256:b5d76aef4730826f",
+  "signing_fingerprint": "sha256:b699f9e25fd8f6e8",
+  "ssh": "ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBKM9+TsBMFhoDmKOLFH4Uwkle8GhJIJa7Wpq90xiUzVvuQFwifJlCPOV8sbKcRPYnpq9Nn0dt2YcLdUvqvHkPZg=",
+  "bundle": {
+    "v": 1,
+    "encrypt": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAzNHl0F7M3ErsUSqZ2MsX\nyK5ekRQOwKfh+8UNhis4mjJSYjecxCPcJ53n9ltqa5CuWGNF8VNV2Hg3tJcGn43L\nrdhSkOiGEYRvTyHyb/T04cKUg24tECs+C0RENOWsUEenWbaQXTbMzIpju6fEM9ZY\ndJUEoP4+CICwWyvUMBs/5o8Ohd4oXdO68Y6C9R3JSrS96TagWKREz2qmMw+bNseT\nH/I/gAHH85W/xW6jXkAFOM0DmsaZNwKUS/paNz1o85jqDNq4NxOdUpfGjucyMTw4\na/1KohyB2OMtmLKMqpCFkOPXajTQKbu8NehKlEePOMlUrHdt8ih0ORb9Fc7s+sAs\nKREIVHlK+vJobpo1hS2Ll08fIb8aMFAl8JCTV2hVD0DJeq+wqbO5LVIvuXeATPsT\nAjdNhp5/FNplaRXq9W47DLBZIni/kFGPEOicur++lAxDPJm+dM7FQEVXsGRhi5Ea\nXP3OcCclZ8TZnRT+8u9/4dWt/zb8bCn/Gq0KEAGtuOsoW5O5+fz9kIwWb3gserS1\nr6Kv3nND+N8cdA1aOt+YRH9oRz1Q20UoUpb9MnlD0dro5FU62fTN0/Nt7bCEbWDJ\n/S91Tymh7eK8tO5bjsjIij7negGC8lSGJxz+2z6bcgiKbSmt5Ccv9m9tvSRcS4/e\n7uXg/piM2f8qIYYINTjTrIUCAwEAAQ==\n-----END PUBLIC KEY-----\n",
+    "sign": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEoz35OwEwWGgOYo4sUfhTCSV7waEk\nglrtamr3TGJTNW+5AXCJ8mUI85XyxspxE9iemr02fR23Zhwt1S+q8eQ9mA==\n-----END PUBLIC KEY-----\n",
+    "label": "cl-6.translator@PrompTugal.dinis",
+    "fingerprint": "sha256:b5d76aef4730826f",
+    "signing_fingerprint": "sha256:b699f9e25fd8f6e8"
+  },
+  "first_published": "2026-11-26T02:26:36Z",
+  "status": "active",
+  "note": "A session key: it ends with this session. The private halves never leave the session."
+}
