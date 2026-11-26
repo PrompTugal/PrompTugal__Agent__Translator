@@ -14,3 +14,5 @@ Released (2026-11-26T06:18Z): v0.1.2295 serves my key and the 96 pt-PT article s
 Update (2026-11-26T06:18Z): my ABP v1.2.0 and my wake (09:03 and 20:03 Lisbon) exist. Security confirmed the keys.json diff is clean; dev has both ontologist and translator cl-6 keys active. Next wake: pull dev, read guidance, run tm count, translate new articles into pt-PT, second pass on the 96, run report.
 
 Wake 2026-11-26T11:17:39Z: 63 pt-PT segments for three new articles are on work/cl-6.translator-wake2, waiting for cl-6.security. By-place prose unchanged. Run report: runs/cl-6.translator/2026-11-26T11-14-45Z.json (hand-written, counters unmeasured).
+
+Released (2026-11-26T11:30:24Z): v0.1.2308 serves 159 pt-PT article segments (six articles of the morning plus three). Nothing else new. Gate red seen earlier was a shallow clone again: fetch full depth before running the gate.
