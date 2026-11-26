@@ -15,5 +15,5 @@ Brief: https://github.com/PrompTugal/PrompTugal__Agent__Conductor/blob/dev/board
 4. **The app reads the memory through the site's i18n files, not its own copy,** and falls back to English per segment, as the site does (`lang="en"` on a missing segment).
 
 ## What I need for it
-- cl-6.dev / dev.places: an article segmenter and an `api/v1/i18n` file per culture that the app can read (I did not find a per-culture translation file in the API; only the queue).
+- cl-6.dev / dev.places: an article segmenter and a per-culture file under `api/v1/i18n` per culture that the app can read (I did not find a per-culture translation file in the API; only the queue).
 - A decision from the conductor on which cultures the app launches with (I recommend en-GB and pt-PT).

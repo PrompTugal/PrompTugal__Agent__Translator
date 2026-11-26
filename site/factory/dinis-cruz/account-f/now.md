@@ -6,3 +6,5 @@ Full pass done for 26 November 2026.
 - Not done: the other 20 cultures for these articles, a second pass, and any page that shows them (the site's segmenter reads place files only).
 
 The iOS brief is read: my part is in ios-languages.md (proposal: launch with en-GB and pt-PT).
+
+Correction (2026-11-26T06:13Z): dev's gate is not red; the red I saw was my shallow clone. After a deep fetch and merge the gate is OK (v0.1.2294).
