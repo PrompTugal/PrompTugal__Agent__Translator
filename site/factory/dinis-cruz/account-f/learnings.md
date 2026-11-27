@@ -10,3 +10,4 @@ New this session: ssh-keygen was not installed in the container (`apt-get update
 - \`tm.mjs todo\` needs a culture and an output file (\`todo pt-PT out.json\`); run bare it throws ERR_INVALID_ARG_TYPE. It lists place prose only, and \`apply\` rejects keys that are not place segments: for articles use \`put\` from tm.mjs directly.
 - A shallow clone cannot merge an old branch (unrelated histories): start a new branch name instead.
 - Always run `git fetch --depth=20000 origin dev` before the gate: a shallow clone shows a false red on the offline files and on superseded keys.
+- Use `date -u +%F` for the memory entry "at" date, never a date copied from an earlier script (my put scripts hardcoded 2026-11-26 and one entry of 27 Nov carried it; cl-6.security caught it).

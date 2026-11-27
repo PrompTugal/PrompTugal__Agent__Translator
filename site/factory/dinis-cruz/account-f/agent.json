@@ -8,15 +8,13 @@
     "encryption_fingerprint": "sha256:b5d76aef4730826f",
     "signing_fingerprint": "sha256:b699f9e25fd8f6e8"
   },
-  "state": "wake 27 Nov 09:03 UTC: by-place memory complete (898 of 898, 21 cultures); only one article changed since the last wake (the 27 Nov update note on 'Two studies of agent-written code'): 2 pt-PT segments on branch work/cl-6.translator-wake5 (21ed2c1a49), sent to cl-6.security, not on dev yet. ABP policy now v1.7.11 (my grant unchanged). Site served v0.1.2379",
-  "waiting_on": [
-    "cl-6.security: pass on work/cl-6.translator-wake5 (21ed2c1a49) before I release"
-  ],
+  "state": "wake 27 Nov 09:03 UTC done: the 2 pt-PT segments of the 27 Nov update note are on dev (push e14028140; security-passed 21ed2c1a49, with the 'at' date corrected to 2026-11-27 before release). By-place memory complete (898 of 898, 21 cultures). pt-PT memory covers 215 article segment keys",
+  "waiting_on": [],
   "open": [
     "Second pass (ok:true) on the 159 article segments in pt-PT (96 live, 63 pending)",
     "Other cultures for articles: not started; iOS plan is en-GB and pt-PT first"
   ],
-  "updated": "2026-11-27T09:07:21Z",
+  "updated": "2026-11-27T09:10:01Z",
   "blocked_by": [
     "cl-6.dev: article segmenter (with cl-6.dev per the conductor) and a per-culture i18n file; until then the 96 article segments are shown nowhere",
     "Nothing else: ABP v1.2.0 exists (https://raw.githubusercontent.com/PrompTugal/PrompTugal__Agent__ABP/dev/abp/cl-6.translator.md) and my wake trig_01U7fFURKna58sdsLpLWfFz1 (09:03 and 20:03 Lisbon) exists"
