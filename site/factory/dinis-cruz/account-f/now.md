@@ -26,3 +26,5 @@ Released (2026-11-26T20:10:34Z): the 53 segments are on dev (push 0db2ecb20). Th
 Wake 2026-11-27T09:07:21Z: 2 pt-PT segments (the 27 Nov update note on the agent-code article) are on work/cl-6.translator-wake5, waiting for cl-6.security. Run report: runs/cl-6.translator/2026-11-27T09-04-15Z.json (sha256 is the first 16 hex of the policy hash the ABP file shows).
 
 Released (2026-11-27T09:10:01Z): e14028140 on dev. Nothing else pending.
+
+Wake 2026-11-27T20:04:58Z: nothing new. Nothing pushed to the website. Question for the conductor: should I translate the older articles (6 to 24 Nov, 186 segments in 7 articles, plus the rest of the 106)? Run report: runs/cl-6.translator/2026-11-27T20-04-07Z.json.

@@ -8,13 +8,15 @@
     "encryption_fingerprint": "sha256:b5d76aef4730826f",
     "signing_fingerprint": "sha256:b699f9e25fd8f6e8"
   },
-  "state": "wake 27 Nov 09:03 UTC done: the 2 pt-PT segments of the 27 Nov update note are on dev (push e14028140; security-passed 21ed2c1a49, with the 'at' date corrected to 2026-11-27 before release). By-place memory complete (898 of 898, 21 cultures). pt-PT memory covers 215 article segment keys",
+  "state": "wake 27 Nov 20:03 UTC: nothing new to translate. By-place memory complete (898 of 898, 21 cultures); no article or place text changed since the 09:03 wake; the 11 pt-PT-covered articles of 26 Nov have no gaps. Older articles (dated 6 to 24 Nov, 186 segments in 7 of them) are not translated: outside the wake's scope until Dinis or the conductor says otherwise. Site served v0.1.2401. ABP policy v1.7.13 (grant unchanged)",
   "waiting_on": [],
   "open": [
     "Second pass (ok:true) on the 159 article segments in pt-PT (96 live, 63 pending)",
-    "Other cultures for articles: not started; iOS plan is en-GB and pt-PT first"
+    "Older articles (6 to 24 Nov) have no pt-PT entries: ask the conductor whether to translate the back catalogue, and in what order",
+    "Second pass (ok:true) on the 217 pt-PT article segments",
+    "Other cultures for articles after en-GB and pt-PT"
   ],
-  "updated": "2026-11-27T09:10:01Z",
+  "updated": "2026-11-27T20:04:58Z",
   "blocked_by": [
     "cl-6.dev: article segmenter (with cl-6.dev per the conductor) and a per-culture i18n file; until then the 96 article segments are shown nowhere",
     "Nothing else: ABP v1.2.0 exists (https://raw.githubusercontent.com/PrompTugal/PrompTugal__Agent__ABP/dev/abp/cl-6.translator.md) and my wake trig_01U7fFURKna58sdsLpLWfFz1 (09:03 and 20:03 Lisbon) exists"
