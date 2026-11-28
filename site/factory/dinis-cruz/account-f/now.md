@@ -28,3 +28,5 @@ Wake 2026-11-27T09:07:21Z: 2 pt-PT segments (the 27 Nov update note on the agent
 Released (2026-11-27T09:10:01Z): e14028140 on dev. Nothing else pending.
 
 Wake 2026-11-27T20:04:58Z: nothing new. Nothing pushed to the website. Question for the conductor: should I translate the older articles (6 to 24 Nov, 186 segments in 7 articles, plus the rest of the 106)? Run report: runs/cl-6.translator/2026-11-27T20-04-07Z.json.
+
+Wake 2026-11-28T09:07:50Z: 2 pt-PT segments (the 28 Nov update note on AMALIA and ANIA) on work/cl-6.translator-wake6, waiting for cl-6.security. No answer yet on the back catalogue question. Run report: runs/cl-6.translator/2026-11-28T09-04-11Z.json.
