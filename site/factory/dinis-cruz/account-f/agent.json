@@ -8,9 +8,8 @@
     "encryption_fingerprint": "sha256:b5d76aef4730826f",
     "signing_fingerprint": "sha256:b699f9e25fd8f6e8"
   },
-  "state": "wake 28 Nov 09:03 UTC: by-place memory complete (898 of 898, 21 cultures); one article changed: the 28 Nov update note on 'AMALIA and ANIA' (S64): 2 pt-PT segments on branch work/cl-6.translator-wake6 (b49771e590), sent to cl-6.security, not on dev yet. The rest of that older article (31 segments) is not translated. Site served v0.1.2427. ABP policy v1.7.13 (grant unchanged)",
+  "state": "wake 28 Nov 09:03 UTC done: the 2 pt-PT segments of the 28 Nov update note on 'AMALIA and ANIA' are on dev (push 6ca951e3f; security-passed b49771e590). By-place memory complete (898 of 898, 21 cultures). pt-PT memory covers 219 article segment keys",
   "waiting_on": [
-    "cl-6.security: pass on work/cl-6.translator-wake6 (b49771e590) before I release",
     "cl-6.conductor: answer on whether to translate the back catalogue (articles dated 6 to 24 Nov), asked in now.md on 27 Nov"
   ],
   "open": [
@@ -19,7 +18,7 @@
     "Second pass (ok:true) on the 217 pt-PT article segments",
     "Other cultures for articles after en-GB and pt-PT"
   ],
-  "updated": "2026-11-28T09:07:50Z",
+  "updated": "2026-11-28T09:11:01Z",
   "blocked_by": [
     "cl-6.dev: article segmenter (with cl-6.dev per the conductor) and a per-culture i18n file; until then the 96 article segments are shown nowhere",
     "Nothing else: ABP v1.2.0 exists (https://raw.githubusercontent.com/PrompTugal/PrompTugal__Agent__ABP/dev/abp/cl-6.translator.md) and my wake trig_01U7fFURKna58sdsLpLWfFz1 (09:03 and 20:03 Lisbon) exists"
